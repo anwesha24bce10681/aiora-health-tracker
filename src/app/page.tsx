@@ -442,7 +442,7 @@ export default function Home() {
 
   <Calendar
   className="rounded-3xl bg-pink-50 p-4 text-blue-600 shadow-md"
-  className="text-blue-600"
+  
     onChange={(value) => setSelectedDate(value as Date)}
     value={selectedDate}
 
